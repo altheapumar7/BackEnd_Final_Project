@@ -5,7 +5,7 @@ Built as a final requirement for IT15/L — Integrative Programming.
 
 ## Setup Instructions
 ```bash
-cd laravel-backend
+cd backend
 composer install
 cp .env.example .env
 php artisan key:generate
@@ -17,9 +17,9 @@ php artisan serve
 
 Configure your `.env` file:
 ```
-DB_DATABASE=your_db_name
+DB_DATABASE=acad_portal_db
 DB_USERNAME=root
-DB_PASSWORD=your_password
+DB_PASSWORD-
 ```
 
 ## API Base URL
